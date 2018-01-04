@@ -21,7 +21,8 @@ cat htpasswd
 htpasswd -b /etc/origin/master/htpasswd usrname pssword
 oc login
 
-
+http://www.thomasqvarnstrom.com/2015/08/how-to-add-jboss-xpaas-images-streams.html
+https://dzone.com/articles/how-to-add-jboss-xpaas-images-streams-to-openshift
 
 [OSEv3:children]
 masters
