@@ -1,0 +1,40 @@
+https://github.com/gshipley/installcentos
+https://github.com/worldline/openshift-cartridge-tomcat
+
+
+yum install -y epel-release
+yum install -y docker wget git ansible
+yum install zip unzip
+yum install -y pyton-cryptography pyOpenSSL.x86_64
+sudo yum install python-pip python-devel python
+sudo pip install pip --upgrade
+yum install java-1.8.0-openjdk-headless
+pip install passlib
+ssh-keygen -t rsa
+ssh-copy-id root@domain
+ansile-playbook -i inventoryfile ymlfile
+cd /etc/origin/master/
+cat htpasswd
+htpasswd -b /etc/origin/master/htpasswd usrname pssword
+oc login
+
+
+
+[OSEv3:children]
+masters
+nodes
+
+[masters]
+console.techdope.io openshift_schedulable=true
+
+[nodes]
+console.techdope.io openshift_node_labels="{'region': 'infra', 'zone': 'default'}"
+
+[OSEv3:vars]
+ansible_ssh_user=root
+containerized=true
+deployment_type=origin
+openshift_release=v1.4
+openshift_image_tag=v1.4.0
+openshift_public_hostname=console.techdope.io
+openshift_hosted_metrics_deploy=false
