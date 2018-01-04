@@ -13,6 +13,9 @@ pip install passlib
 ssh-keygen -t rsa
 ssh-copy-id root@domain
 ansile-playbook -i inventoryfile ymlfile
+
+yum provides \*bin/htpasswd
+
 cd /etc/origin/master/
 cat htpasswd
 htpasswd -b /etc/origin/master/htpasswd usrname pssword
