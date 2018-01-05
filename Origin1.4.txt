@@ -14,7 +14,9 @@ ssh-keygen -t rsa
 ssh-copy-id root@domain
 ansile-playbook -i inventoryfile ymlfile
 
-yum provides \*bin/htpasswd
+yum update
+
+yum -y install httpd-tools
 
 cd /etc/origin/master/
 cat htpasswd
