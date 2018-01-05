@@ -14,6 +14,8 @@ ssh-keygen -t rsa
 ssh-copy-id root@domain
 ansile-playbook -i inventoryfile ymlfile
 
+https://github.com/jboss-openshift/application-templates
+
 yum update
 
 yum -y install httpd-tools
