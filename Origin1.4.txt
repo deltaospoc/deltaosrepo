@@ -7,7 +7,7 @@ yum install -y epel-release
 yum install -y docker wget git ansible
 yum install zip unzip
 yum install -y pyton-cryptography pyOpenSSL.x86_64
-sudo yum install python-pip python-devel python
+yum install -y "@Development Tools" python2-pip openssl-devel python-devel python
 sudo pip install pip --upgrade
 yum install java-1.8.0-openjdk-headless
 pip install passlib
