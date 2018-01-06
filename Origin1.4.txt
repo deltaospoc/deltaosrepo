@@ -1,6 +1,7 @@
 https://github.com/gshipley/installcentos
 https://github.com/worldline/openshift-cartridge-tomcat
 
+minishift.exe start --openshift-version=3.7.0 --vm-driver=virtualbox
 
 yum install -y epel-release
 yum install -y docker wget git ansible
