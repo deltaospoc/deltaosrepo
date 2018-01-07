@@ -17,7 +17,6 @@ echo 'INSECURE_REGISTRY="--insecure-registry 172.30.0.0/16"' >> /etc/sysconfig/d
 wget https://github.com/openshift/openshift-ansible/archive/release-1.4.zip
 unzip release-1.4.zip
 mv openshift-ansible-release-1.4/ openshift-ansible/
-ansile-playbook -i priyatest/inventory.erb openshift-ansible/playbooks/byo/config.yml
+ansible-playbook -i priyatest/inventory.erb openshift-ansible/playbooks/byo/config.yml
 cd /etc/origin/master/
 htpasswd -c /etc/origin/master/htpasswd developer
-password
