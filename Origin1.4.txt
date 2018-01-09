@@ -3,6 +3,10 @@ https://github.com/worldline/openshift-cartridge-tomcat
 
 minishift.exe start --openshift-version=3.7.0 --vm-driver=virtualbox
 
+yum install subscription-manager
+yum install centos-release-scl-rh
+yum install source-to-image
+
 yum install -y epel-release
 yum install -y docker wget git ansible
 yum install zip unzip
