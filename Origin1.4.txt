@@ -8,6 +8,9 @@ https://serverfault.com/questions/710076/centos-7-firewall-cmd-not-found
 https://github.com/minishift/minishift/issues/1515
 https://docs.openshift.org/latest/install_config/install/advanced_install.html
 
+
+https://www.codenotfound.com/spring-ws-soap-web-service-consumer-provider-wsdl-example.html
+
 https://github.com/minishift/minishift/issues/327
 
 yum install subscription-manager
