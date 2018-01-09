@@ -2,6 +2,13 @@ https://github.com/gshipley/installcentos
 https://github.com/worldline/openshift-cartridge-tomcat
 
 minishift.exe start --openshift-version=3.7.0 --vm-driver=virtualbox
+https://github.com/openshift/origin/issues/10139
+https://www.liquidweb.com/kb/how-to-start-and-enable-firewalld-on-centos-7/
+https://serverfault.com/questions/710076/centos-7-firewall-cmd-not-found
+https://github.com/minishift/minishift/issues/1515
+https://docs.openshift.org/latest/install_config/install/advanced_install.html
+
+https://github.com/minishift/minishift/issues/327
 
 yum install subscription-manager
 yum install centos-release-scl-rh
