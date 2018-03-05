@@ -1,6 +1,8 @@
 https://github.com/gshipley/installcentos
 https://github.com/worldline/openshift-cartridge-tomcat
 
+https://gist.github.com/uttesh/a59dd0b31f44af23d201     // For SOAP POM file example
+
 minishift.exe start --openshift-version=3.7.0 --vm-driver=virtualbox
 https://github.com/openshift/origin/issues/10139
 https://www.liquidweb.com/kb/how-to-start-and-enable-firewalld-on-centos-7/
