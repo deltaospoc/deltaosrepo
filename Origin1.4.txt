@@ -10,6 +10,7 @@ https://serverfault.com/questions/710076/centos-7-firewall-cmd-not-found
 https://github.com/minishift/minishift/issues/1515
 https://docs.openshift.org/latest/install_config/install/advanced_install.html
 
+https://github.com/jcordes73/openshift-cartridge-oracle-jdbc
 
 https://www.codenotfound.com/spring-ws-soap-web-service-consumer-provider-wsdl-example.html
 
