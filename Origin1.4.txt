@@ -13,6 +13,16 @@ https://docs.openshift.org/latest/install_config/install/advanced_install.html
 https://github.com/jcordes73/openshift-cartridge-oracle-jdbc
 
 https://www.codenotfound.com/spring-ws-soap-web-service-consumer-provider-wsdl-example.html
+oc get pods
+oc rsh <pod name>
+$ oc rsync <source> <destination> [-c <container>]
+
+# Copy local directory to a pod directory
+$ oc rsync /home/user/source devpod1234:/src
+
+# Copy pod directory to a local directory
+$ oc rsync devpod1234:/src /home/user/source
+
 
 https://github.com/minishift/minishift/issues/327
 
